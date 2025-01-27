@@ -1,0 +1,14 @@
+C:\Users\chiki\LaserDefender\bin\Debug\net7.0\LaserDefender.exe
+C:\Users\chiki\LaserDefender\bin\Debug\net7.0\LaserDefender.deps.json
+C:\Users\chiki\LaserDefender\bin\Debug\net7.0\LaserDefender.runtimeconfig.json
+C:\Users\chiki\LaserDefender\bin\Debug\net7.0\LaserDefender.dll
+C:\Users\chiki\LaserDefender\bin\Debug\net7.0\LaserDefender.pdb
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\LaserDefender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\LaserDefender.AssemblyInfoInputs.cache
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\LaserDefender.AssemblyInfo.cs
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\LaserDefender.csproj.CoreCompileInputs.cache
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\LaserDefender.dll
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\refint\LaserDefender.dll
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\LaserDefender.pdb
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\LaserDefender.genruntimeconfig.cache
+C:\Users\chiki\LaserDefender\obj\Debug\net7.0\ref\LaserDefender.dll
