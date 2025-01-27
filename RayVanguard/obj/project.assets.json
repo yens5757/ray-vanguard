@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Swinburne\\20007\\Custom\\RayVanguard\\RayVanguard.csproj",
+      "projectUniqueName": "E:\\ravi\\ray-vanguard\\ray-vanguard\\RayVanguard\\RayVanguard.csproj",
       "projectName": "RayVanguard",
-      "projectPath": "E:\\Swinburne\\20007\\Custom\\RayVanguard\\RayVanguard.csproj",
+      "projectPath": "E:\\ravi\\ray-vanguard\\ray-vanguard\\RayVanguard\\RayVanguard.csproj",
       "packagesPath": "C:\\Users\\chiki\\.nuget\\packages\\",
-      "outputPath": "E:\\Swinburne\\20007\\Custom\\RayVanguard\\obj\\",
+      "outputPath": "E:\\ravi\\ray-vanguard\\ray-vanguard\\RayVanguard\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chiki\\AppData\\Roaming\\NuGet\\NuGet.Config",

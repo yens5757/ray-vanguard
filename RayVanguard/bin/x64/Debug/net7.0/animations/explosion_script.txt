@@ -1,0 +1,6 @@
+SplashKit Animation
+//f: identifier, cell number, duration, next frame
+f: [0-13], [0-13], 3, 0
+
+// -- Animation Identifiers --
+i:explode,0

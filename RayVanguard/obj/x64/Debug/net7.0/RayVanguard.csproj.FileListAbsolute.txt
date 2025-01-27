@@ -26,3 +26,17 @@ E:\Swinburne\20007\Custom\RayVanguard\obj\x64\Debug\net7.0\refint\RayVanguard.dl
 E:\Swinburne\20007\Custom\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.pdb
 E:\Swinburne\20007\Custom\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.genruntimeconfig.cache
 E:\Swinburne\20007\Custom\RayVanguard\obj\x64\Debug\net7.0\ref\RayVanguard.dll
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.GeneratedMSBuildEditorConfig.editorconfig
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.AssemblyInfoInputs.cache
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.AssemblyInfo.cs
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.csproj.CoreCompileInputs.cache
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.dll
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\refint\RayVanguard.dll
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.pdb
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\bin\x64\Debug\net7.0\RayVanguard.exe
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\bin\x64\Debug\net7.0\RayVanguard.deps.json
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\bin\x64\Debug\net7.0\RayVanguard.runtimeconfig.json
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\bin\x64\Debug\net7.0\RayVanguard.dll
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\bin\x64\Debug\net7.0\RayVanguard.pdb
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\RayVanguard.genruntimeconfig.cache
+E:\ravi\ray-vanguard\ray-vanguard\RayVanguard\obj\x64\Debug\net7.0\ref\RayVanguard.dll

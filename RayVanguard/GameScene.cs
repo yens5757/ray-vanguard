@@ -20,6 +20,9 @@ namespace RayVanguard
         private int _clearedEnemies;
         private GameFactory _gameFactory;
         private double _enemiesFrequency;
+        private Bitmap _explosionAnimation;
+        private AnimationScript _explosionScript;
+        private List<ExplosionEffect> _explosions;
 
 
         private bool _isDead;
@@ -34,7 +37,11 @@ namespace RayVanguard
             _clearedEnemies = 0;
             _isDead = false;
             _explosionSound = SplashKit.LoadSoundEffect("explosion1", "explosionCrunch_004.ogg");
+            _explosionAnimation = SplashKit.LoadBitmap("explosion_effect1", "img/explosion/explosion_blue.png");
+            _explosionAnimation.SetCellDetails(_explosionAnimation.Width / 14, _explosionAnimation.Height, 14, 1, 14);
+            _explosionScript = SplashKit.LoadAnimationScript("ExplosionScript", "explosion_script.txt");
             _enemiesFrequency = enemiesFrequency;
+            _explosions = new List<ExplosionEffect>();
 
             SplashKit.PlayMusic(_music);
             SplashKit.SetMusicVolume(0.1f);
@@ -43,6 +50,7 @@ namespace RayVanguard
         {
             CheckInput();
             CheckSpawnAndCollide();
+            UpdateExplosions();
             if (!SplashKit.MusicPlaying())
             {
                 SplashKit.PlayMusic(_music);
@@ -59,6 +67,23 @@ namespace RayVanguard
             foreach (Bullet bullet in _player.Bullets)
             {
                 bullet.Draw();
+            }
+            foreach (var explosion in _explosions)
+            {
+                explosion.Draw();
+            }
+        }
+        private void UpdateExplosions()
+        {
+            // Update existing explosions
+            foreach (var explosion in _explosions.ToList())
+            {
+                explosion.Update();
+                if (!explosion.IsActive)
+                {
+                    explosion.Free();
+                    _explosions.Remove(explosion);
+                }
             }
         }
         public bool IsDead
@@ -116,6 +141,7 @@ namespace RayVanguard
                     if (SplashKit.BitmapCollision(enemy.Bitmap, enemy.X - enemy.Bitmap.Width / 2, enemy.Y - enemy.Bitmap.Height / 2, bullet.Bitmap, bullet.X - bullet.Bitmap.Width / 2, bullet.Y - bullet.Bitmap.Height / 2))
                     {
                         SplashKit.PlaySoundEffect(_explosionSound);
+                        _explosions.Add(new ExplosionEffect(_explosionAnimation, _explosionScript, enemy.X - enemy.Bitmap.Width / 2, enemy.Y - enemy.Bitmap.Height / 2));
                         _clearedEnemies += 1;
                         enemiesToDelete.Add(enemy);
                         bulletsToDelete.Add(bullet);
